@@ -53,7 +53,6 @@ MediaRecorder.prototype.start = function (timeslice) {
         }
         var success = function (info) {
                console.log(info);
-               return info;
             //this.onstart();
         };
         var fail = function (error) {      
